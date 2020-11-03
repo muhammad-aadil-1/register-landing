@@ -1,0 +1,113 @@
+{
+    "Main" : {
+      "uid" : {
+        "type" : "UID",
+        "config" : {
+          "label" : "uid"
+        }
+      },
+      "form_bg_content_1" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label" : "form_bg_content 1"
+        }
+      },
+      "form_bg_content_2" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, heading1, heading2, heading3, heading4, heading5",
+          "label" : "form_bg_content 2"
+        }
+      },
+      "form_bg_content_3" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph",
+          "label" : "form_bg_content 3"
+        }
+      },
+      "country_list" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph",
+          "label" : "form_bg_content 3"
+        }
+      },
+      "form_bg_text_bottom" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label" : "form bg text bottom"
+        }
+      },
+      "icon_text_1" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, strong",
+          "label" : "icon text 1"
+        }
+      },
+      "icon_text_2" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, strong, em",
+          "label" : "icon text 2"
+        }
+      },
+      "icon_text_3" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, strong, rtl",
+          "label" : "icon text 3"
+        }
+      },
+      "icon_text_4" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph, strong",
+          "label" : "icon text 4"
+        }
+      },
+      "background_banner_image" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : { },
+          "thumbnails" : [ ],
+          "label" : "background banner image"
+        }
+      },
+      "bottom-icon1" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : { },
+          "thumbnails" : [ ],
+          "label" : "bottom-icon1"
+        }
+      },
+      "bottom-icon2" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : { },
+          "thumbnails" : [ ],
+          "label" : "bottom-icon2"
+        }
+      },
+      "bottom-icon3" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : { },
+          "thumbnails" : [ ],
+          "label" : "bottom-icon3"
+        }
+      },
+      "bottom-icon4" : {
+        "type" : "Image",
+        "config" : {
+          "constraint" : { },
+          "thumbnails" : [ ],
+          "label" : "bottom-icon4"
+        }
+      }
+    }
+  }

@@ -1,0 +1,135 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "page_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page heading"
+      }
+    },
+    "banner_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "banner image"
+      }
+    },
+    "main_buttons": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "button_value": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "button value"
+            }
+          },
+          "button_link": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "button link"
+            }
+          },
+          "button_color": {
+            "type": "Color",
+            "config": {
+              "label": "button color"
+            }
+          }
+        },
+        "label": "main buttons"
+      }
+    }
+  },
+  "stats": {
+    "stats_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "stats heading"
+      }
+    },
+    "stats_items": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "stat_icon": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat icon"
+            }
+          },
+          "stat_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat title"
+            }
+          },
+          "stat_value": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat value"
+            }
+          }
+        },
+        "label": "stats items"
+      }
+    },
+    "content_heading": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "content heading"
+      }
+    },
+    "content_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "content description"
+      }
+    },
+    "content_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "content image"
+      }
+    },
+    "download_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "download link"
+      }
+    },
+    "download_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "download label"
+      }
+    },
+    "content_body": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "content body"
+      }
+    }
+  }
+}

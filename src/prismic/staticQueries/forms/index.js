@@ -1,0 +1,5 @@
+export { default as CallBackQuery } from "./CallBackQuery"
+export { default as DepositSkrillFormQuery } from "./DepositSkrillFormQuery"
+export { default as DepositNetellerFormQuery } from "./DepositNetellerFormQuery"
+export { default as WhiteLabelApplicationFormQuery } from "./WhiteLabelApplicationFormQuery"
+export { default as DepositVisaFormQuery } from "./DepositVisaFormQuery"

@@ -1,0 +1,201 @@
+
+@import './../config/functions.scss';
+@import './../config/colorsDefinitions.scss';
+
+.top_bar{
+    background: linear-gradient(to right, setColor(white),setColor(white));
+    // min-height: 3.33333rem;
+    height: 3rem;
+
+    @media screen and (max-width: 579px) {
+        display: none !important;
+    }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dropdown{
+        .dropdown-menu {
+            min-width: 87px !important;
+            text-align: center;
+            padding: 5px !important;
+            a{
+                padding: 0px !important;
+            }
+        }
+    
+        .lang_flag {
+            margin: 0 10px;
+        }
+    
+        .dropdown-item img {
+            margin-right: 12px;
+        }
+    
+        .lang {
+            color: setColor(darkBlue);
+            text-transform: uppercase;
+        }
+    
+        span.la {
+            color: rgba(255, 255, 255, .6);
+            font-size: .86667rem;
+        }
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+
+    .top_bar_social{
+        ul{
+
+            li{
+                display: inline-block;
+                line-height: 3.6rem;
+                border-left: 1px solid rgba(255, 255, 255, .1);
+                border: 0;
+                .smallButton{
+                    img{
+                        width: 115px;
+                    }
+                }
+                
+                .smallIcon{
+                    font-weight: 400;
+                    img{
+                        width: 25px;
+                    }
+                }
+                a{
+                    font-size: 15px;
+                    padding: 0 20px;
+                    padding: 0 11px;
+                    border-radius: 0.4rem;
+                    color: setColor(darkBlue);
+                }
+                a:hover {
+                    color: setColor(blue);;
+                    text-decoration: none;
+                }
+                a.grey{
+                    background-color: #dad9d9;
+                    padding: 0.30rem 1rem;
+                    font-weight: 400;
+                    margin: 8px;
+                }
+                a.trade-now{
+                    background-color:#db5d51;
+                    padding: 0.30rem 1rem;
+                    font-weight: 400;
+                    margin: 8px;
+                    color: #fff
+                }
+            li:last-child{
+                border-right: 1px solid rgba(255, 255, 255, .1);
+            }
+
+            
+        
+            
+        }
+        .systemNames{
+            color: setColor(darkBlue);
+            margin-left: -7px;
+            span{
+                color: setColor(darkBlue);
+            }
+        }
+    }
+    .account-btn{
+        padding: 0px 1rem;
+        border-radius: 10px;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 1.75rem;
+    }
+    .account-btn.demo{
+        background: #c41e7e;
+    }
+    .account-btn.live{
+        background: #028687;
+    }
+
+}
+
+}
+
+.menu_area{
+    box-shadow: .33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    position: relative;
+    background: #fff;
+    .navbar {
+        padding: 1rem;
+        .navbar-brand{
+            img{
+                width: 115px;
+                height: 84px;
+            }
+        }
+        .navbar-nav{
+            .homeMenue, .mainMenue> .nav-link{
+                color: setColor(fontBlack);
+                font-weight: 500;
+                text-transform: capitalize;
+                padding: 1.2rem 1rem;
+            }
+            .subMenue{
+                background: none;
+                padding: 10px;
+
+                display: block;
+                font-weight: 400;
+                color: #212529;
+                text-align: inherit;
+                white-space: nowrap;
+            }
+            .subMenue:hover{
+                background: none;
+                color: setColor(fontPurple);
+            }
+            .dropdown-menu{
+                padding: 1rem;
+                top: 4.66667rem;
+                left: auto;
+                border: none;
+                box-shadow: 0 0 30px rgba(41,41,59,.1);
+                width: max-content;
+            }
+        }
+    }
+}
+
+.menu_area .navbar .navbar-nav .dropdown-menu {
+    // direction: rtl !important;
+    // right: 10px;
+    // right: 0px;
+    // width: 100rem !important;
+    // width: 40rem !important;
+}
+
+// .top_bar_lang{
+//     .dropdown{
+//         background: unset;
+        
+//     }
+//     img{
+//         width: 33px;
+//     }
+//     .dropdown-menu{
+//         padding: 1rem;
+//         border: none;
+//         box-shadow: 0 0 30px rgba(41,41,59,.1);
+//     }
+// }
+
+.carousel-control-prev, .carousel-control-next {
+    width: 10%;
+}

@@ -1,0 +1,183 @@
+{
+    "Main": {
+      "page_name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label": "page name"
+        }
+      },
+      "page_heading": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label": "page heading"
+        }
+      },
+      "banner_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "banner image"
+        }
+      }
+    },
+    "depsits": {
+      "deposit_label": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label": "deposit label"
+        }
+      },
+      "d_headers": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "d_header_title": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d header title"
+              }
+            }
+          },
+          "label": "d headers"
+        }
+      },
+      "deposit_table": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "d_image": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "d image"
+              }
+            },
+            "d_currency": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d currency"
+              }
+            },
+            "d_fee": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d fee"
+              }
+            },
+            "d_processing_time": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d processing time"
+              }
+            },
+            "d_action_label": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d action label"
+              }
+            },
+            "d_action_link": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "d action link"
+              }
+            }
+          },
+          "label": "deposit table"
+        }
+      }
+    },
+    "withdrawal": {
+      "withdrawal_label": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+          "label": "withdrawal label"
+        }
+      },
+      "w_headers": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "w_header_title": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w header title"
+              }
+            }
+          },
+          "label": "w headers"
+        }
+      },
+      "withdrawal_table": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "w_image": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "w image"
+              }
+            },
+            "w_currency": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w currency"
+              }
+            },
+            "w_fee": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w fee"
+              }
+            },
+            "w_processing_time": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w processing time"
+              }
+            },
+            "w_action_label": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w action label"
+              }
+            },
+            "w_action_link": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w action link"
+              }
+            },
+            "w_type": {
+              "type": "StructuredText",
+              "config": {
+                "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                "label": "w type"
+              }
+            }
+          },
+          "label": "withdrawal table"
+        }
+      }
+    }
+  }

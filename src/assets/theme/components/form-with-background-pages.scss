@@ -1,0 +1,52 @@
+
+.login-register .signup-form {
+    padding-top: 5.66667rem;
+    padding-bottom: 7.33333rem;
+
+    .card-header {
+        padding: 0;
+    }
+
+    .form-wrapper .card .card-header h4, .login-register .signup-form .form-wrapper .card .card-header h4 {
+        margin: 1.33333rem 0;
+    }
+}
+
+.form-background.biz_overlay.overlay--secondary2::before {
+    background: rgba(27,28,57,.8);
+}
+
+.form-background.biz_overlay::before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    content: '';
+    z-index: 1;
+    background: rgba(0,0,0,.6);
+}
+
+.form-background {
+    .bg_image_holder {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        -webkit-background-size: cover!important;
+        background-size: cover!important;
+        background-position: 50% 50%!important;
+        background-repeat: no-repeat!important;
+        z-index: 0;
+        -o-transition: opacity .3s linear;
+        transition: opacity .3s linear;
+        -webkit-transition: opacity .3s linear;
+        opacity: 0;
+
+        .content_above {
+            z-index: 2;
+            position: relative;
+        }
+    }
+    
+    
+}

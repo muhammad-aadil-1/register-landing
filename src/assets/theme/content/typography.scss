@@ -1,0 +1,23 @@
+
+@import '../config/functions.scss';
+.text-sm {
+    font-size: fontSize(sm);
+}
+
+.text-lg {
+    font-size: fontSize(lg);
+}
+.text-md {
+    font-size: fontSize(md);
+}
+.line-height-sm {
+    line-height: 1.5;
+}
+
+.line-height-lg {
+    line-height: 2rem;
+}
+
+.text-bold-md {
+    font-weight: 600;
+}

@@ -1,0 +1,84 @@
+.subscribe-seven {
+    padding: 7.66667rem 0;
+    background: url(../img/map-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe-form-two {
+    .form-control {
+        height: 4.66667rem;
+        border-radius: .2rem;
+        // padding-right: 12.33333rem;
+        padding-left: 2rem;
+    }
+
+
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+
+    .btn {
+        position: absolute;
+        // right: 5rem;
+        top: 75%;
+        transform: translateY(-50%);
+        box-shadow: none;
+    }
+
+
+    @media screen and (max-width: 479px) {
+        .form-control {
+            padding-right: 2rem;
+        }
+        .btn {
+            position: static;
+            top: 0;
+            right: 0;
+            transform: none;
+            margin-top: 15px;
+        }
+    }
+}
+
+
+// .subscribe-seven {
+//     padding: 7.66667rem 0;
+//     background: url(../img/map-bg.png);
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }
+
+// .subscribe-form-two .form-control {
+//     height: 4.66667rem;
+//     border-radius: .2rem;
+//     padding-right: 12.33333rem;
+//     padding-left: 2rem;
+// }
+
+// .btn:not(:disabled):not(.disabled) {
+//     cursor: pointer;
+// }
+
+// .subscribe-form-two .btn {
+//     position: absolute;
+//     right: 5rem;
+//     top: 75%;
+//     transform: translateY(-50%);
+//     box-shadow: none;
+// }
+
+
+// @media screen and (max-width: 479px) {
+//     .subscribe-form-two .form-control {
+//         padding-right: 2rem;
+//     }
+// .subscribe-form-two .btn {
+//     position: static;
+//     top: 0;
+//     right: 0;
+//     transform: none;
+//     margin-top: 15px;
+// }
+// }
+

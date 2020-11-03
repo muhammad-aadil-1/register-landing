@@ -1,0 +1,5 @@
+export { default as FooterBarQuery } from "./FooterBarQuery"
+export { default as FooterSectionQuery } from "./FooterSectionQuery"
+export { default as HeaderQuery } from "./HeaderQuery"
+export { default as HeaderSectionQuery } from "./HeaderSectionQuery"
+export { default as HeaderSectionTopQuery } from "./HeaderSectionTopQuery"

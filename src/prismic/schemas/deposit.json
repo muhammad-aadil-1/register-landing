@@ -1,0 +1,203 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "page_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page heading"
+      }
+    },
+    "banner_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "banner image"
+      }
+    }
+  },
+  "wire transfer": {
+    "wire_transfer_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "wire transfer icon"
+      }
+    },
+    "wire_transfer_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "wire transfer heading"
+      }
+    },
+    "wire_transfer_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "wire transfer description"
+      }
+    },
+    "wire_transfer_banks_boxes": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "bank_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank title"
+            }
+          },
+          "bank_name": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank name"
+            }
+          },
+          "bank_account_name": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank account name"
+            }
+          },
+          "bank_address": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank address"
+            }
+          },
+          "bank_swift_code": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank swift code"
+            }
+          },
+          "bank_account_number": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank account number"
+            }
+          },
+          "bank_iban_number": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "bank iban number"
+            }
+          }
+        },
+        "label": "wire transfer banks boxes"
+      }
+    }
+  },
+  "visa": {
+    "visa_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "visa icon"
+      }
+    },
+    "visa_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "visa heading"
+      }
+    },
+    "visa_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "visa description"
+      }
+    }
+  },
+  "neteller": {
+    "neteller_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "neteller icon"
+      }
+    },
+    "neteller_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "neteller heading"
+      }
+    },
+    "neteller_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "neteller description"
+      }
+    }
+  },
+  "skrill": {
+    "skrill_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "skrill icon"
+      }
+    },
+    "skrill_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "skrill heading"
+      }
+    },
+    "skrill_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "skrill description"
+      }
+    }
+  },
+  "cashu": {
+    "cashu_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "cashu heading"
+      }
+    },
+    "cashu_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "cashu icon"
+      }
+    },
+    "cashu_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "cashu description"
+      }
+    }
+  }
+}

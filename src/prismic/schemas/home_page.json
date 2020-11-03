@@ -1,0 +1,377 @@
+{
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "slug",
+        "placeholder" : "my-awesome-page"
+      }
+    },
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "SEO Title"
+      }
+    },
+    "slider" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "slider_image" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Slider Image"
+            }
+          },
+          "slider_media" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "media",
+              "label" : "slider media"
+            }
+          }
+        },
+        "label" : "Slider"
+      }
+    },
+    "show_price_feed" : {
+      "type" : "Boolean",
+      "config" : {
+        "default_value" : true,
+        "label" : "Show Price Feed"
+      }
+    },
+    "join_heading" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "join_heading"
+      }
+    },
+    "demo_account_link" : {
+      "type" : "Link",
+      "config" : {
+        "allowTargetBlank" : true,
+        "label" : "Demo Account Link"
+      }
+    },
+    "demo_account_label" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading6",
+        "label" : "demo account label"
+      }
+    },
+    "live_account_link" : {
+      "type" : "Link",
+      "config" : {
+        "allowTargetBlank" : true,
+        "label" : "Live Account Link"
+      }
+    },
+    "live_account_label" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "live account label"
+      }
+    },
+    "text_below_demo_and_live_buttons" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Text Below Demo and Live buttons"
+      }
+    },
+    "why_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Why Text"
+      }
+    },
+    "why_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Why Description"
+      }
+    },
+    "why_boxes" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "icon" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Icon"
+            }
+          },
+          "why_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "Why Title"
+            }
+          },
+          "why_description1" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph",
+              "label" : "Why Description"
+            }
+          },
+          "why_link" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "why link"
+            }
+          },
+          "why_is_external" : {
+            "type" : "Boolean",
+            "config" : {
+              "default_value" : false,
+              "label" : "why is external"
+            }
+          }
+        },
+        "label" : "Why Boxes"
+      }
+    },
+    "trading_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Trading Title"
+      }
+    },
+    "trading_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Trading Description"
+      }
+    },
+    "trading_icon" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "trading icon"
+      }
+    },
+    "trading_box" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "trading_tile" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "media",
+              "label" : "trading tile"
+            }
+          }
+        },
+        "label" : "trading box"
+      }
+    },
+    "application_links" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "link_icon" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "media",
+              "label" : "link icon"
+            }
+          },
+          "link_url" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "link url"
+            }
+          }
+        },
+        "label" : "application links"
+      }
+    },
+    "wide_choice" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Wide Choice"
+      }
+    },
+    "wide_range_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Wide Range Description"
+      }
+    },
+    "wide_range_thumbnail" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Wide Range Thumbnail"
+      }
+    },
+    "wide_range_features" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "icon" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Icon"
+            }
+          },
+          "icon_front" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "icon front"
+            }
+          },
+          "range_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "range title"
+            }
+          },
+          "range_feature_description" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph",
+              "label" : "Range Feature Description"
+            }
+          },
+          "range_link" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "range_link"
+            }
+          }
+        },
+        "label" : "Wide Range Features"
+      }
+    },
+    "next_level" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Next Level"
+      }
+    },
+    "next_level_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Next Level Description"
+      }
+    },
+    "next_level_button_label" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading6",
+        "label" : "next level button label"
+      }
+    },
+    "next_level_thumbnail" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "next level thumbnail"
+      }
+    },
+    "latest_offer" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Latest Offer"
+      }
+    },
+    "latest_offer_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Latest Offer Description"
+      }
+    },
+    "latest_offers" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "thumbnail" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "thumbnail"
+            }
+          },
+          "offer_title" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "Offer Title"
+            }
+          },
+          "offer_description" : {
+            "type" : "StructuredText",
+            "config" : {
+              "multi" : "paragraph",
+              "label" : "Offer Description"
+            }
+          },
+          "offer_link" : {
+            "type" : "StructuredText",
+            "config" : {
+              "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label" : "offer link"
+            }
+          }
+        },
+        "label" : "Latest Offers"
+      }
+    },
+    "payment_gateways" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "gateway_thumbnail" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Gateway Thumbnail"
+            }
+          }
+        },
+        "label" : "Payment Gateways"
+      }
+    },
+    "newsletter_placeholder_text" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph",
+        "label" : "Newsletter Placeholder text"
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "logo": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "logo"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "menu_box": []
+        },
+        "choices": {
+          "menu_box": {
+            "type": "Slice",
+            "fieldset": "menu box",
+            "description": "menues and sub menues",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "menu_name": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "menu name"
+                }
+              },
+              "menu_link": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "menu link"
+                }
+              }
+            },
+            "repeat": {
+              "sub_menu_name": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "sub menu name"
+                }
+              },
+              "sub_menu_link": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "sub menu link"
+                }
+              },
+              "open_external": {
+                "type": "Boolean",
+                "config": {
+                  "default_value": false,
+                  "label": "open external"
+                }
+              },
+              "on_right": {
+                "type": "Boolean",
+                "config": {
+                  "default_value": false,
+                  "label": "on right"
+                }
+              },
+              "params": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "params"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "fix icons": {
+    "chat_icon": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "chat icon"
+      }
+    },
+    "chat_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "chat title"
+      }
+    },
+    "callback_icon": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "callback icon"
+      }
+    },
+    "callback_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "callback title"
+      }
+    },
+    "callback_form_image": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "callback form image"
+      }
+    },
+    "user_guide_icon": {
+      "type": "Link",
+      "config": {
+        "select": "media",
+        "label": "user guide icon"
+      }
+    },
+    "user_guide_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "user guide title"
+      }
+    },
+    "user_guide_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "user guide link"
+      }
+    }
+  }
+}

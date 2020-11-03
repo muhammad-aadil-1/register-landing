@@ -1,0 +1,69 @@
+{
+  "Main": {
+    "form_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "form name"
+      }
+    },
+    "form_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "form heading"
+      }
+    },
+    "banner_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "banner image"
+      }
+    },
+    "form_fields": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "field_type": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "field type"
+            }
+          },
+          "field_label": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "field label"
+            }
+          },
+          "field_place_holder": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "field place holder"
+            }
+          },
+          "field_name": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "field name"
+            }
+          }
+        },
+        "label": "form fields"
+      }
+    },
+    "submit_button_text": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "submit button text"
+      }
+    }
+  }
+}

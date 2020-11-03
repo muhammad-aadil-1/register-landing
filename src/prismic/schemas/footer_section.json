@@ -1,0 +1,98 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "office_heading_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "office heading label"
+      }
+    },
+    "offices_box": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "location_icon": {
+            "type": "Image",
+            "config": {
+              "constraint": {},
+              "thumbnails": [],
+              "label": "location icon"
+            }
+          },
+          "location_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "location title"
+            }
+          },
+          "location_description": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+              "label": "location description"
+            }
+          }
+        },
+        "label": "offices box"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "footer_menues": []
+        },
+        "choices": {
+          "footer_menues": {
+            "type": "Slice",
+            "fieldset": "footer menues",
+            "description": "menus and sub menus",
+            "icon": "face",
+            "display": "list",
+            "non-repeat": {
+              "menu_label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "menu label"
+                }
+              }
+            },
+            "repeat": {
+              "sub_menu_label": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "sub menu label"
+                }
+              },
+              "sub_menu_link": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "sub menu link"
+                }
+              },
+              "open_external": {
+                "type": "Boolean",
+                "config": {
+                  "default_value": false,
+                  "label": "open external"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+
+@import './../config/functions.scss';
+@import './../config/colorsDefinitions.scss';
+
+.pad50{
+    padding-top: 50px;
+}
+.marTop40{
+    margin-top: 40px;
+}
+.joinContent{
+    margin: auto;
+    margin-bottom: 2.666rem;
+    h3{
+        color: setColor('fontBlue');
+        margin-bottom: 1.66667rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .tile{
+        .tileBox{
+            margin-bottom: 2rem;
+        }
+        img{
+            width: 100%;
+        }
+        a{
+            padding: 0.375rem 2rem
+        }
+    }
+    .description{
+        p{
+            margin: 0px;
+            line-height: 2rem;
+            font-size: 15px;
+        }
+    }
+}
+
+
+.whyContent{
+    margin: auto;
+    margin-bottom: 2.666rem;
+    h3{
+        color: setColor('fontBlue');
+        margin-bottom: 1.66667rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    p.description{
+        margin: 0px;
+        line-height: 2rem;
+        font-size: 15px;
+    }
+}
+.whyContentBox:hover{
+    .icon-rounded {
+        background: #adadad !important;
+        border-radius: 5px;
+        // padding: 1rem;
+    }
+    // img{
+    //     zoom: 1.5;
+    // }
+}
+.whyContentBox{
+    margin-bottom: 2rem;
+    a{
+        span{
+            font-size: 2.4rem;
+            height: 4.66667rem;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            img{
+                width: 55px;
+                height: 55px;
+                // transition: 0.3s all;
+            }
+        }
+    }
+    h6{
+        color: setColor(fontBlue);
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 1.1333rem;
+    }
+    p{
+        margin: 0px;
+        line-height: 2rem;
+        font-size: 15px;
+    }
+}
+
+.whyContentBox .icon-rounded {
+    font-size: 2.4rem;
+    width: 4.66667rem;
+    height: 4.66667rem;
+    border-radius: 1.6rem;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.whyContentBox:hover .icon-rounded {
+    background: #adadad !important;
+}
+
+.tradingPlatforms{
+    .li-metaTrade{
+        padding: 10px;
+    }
+    h2{
+        color: setColor(fontBlue);
+    }
+    p{
+        color: setColor(darkBlue);
+        font-size: 15px;
+    }
+    .applicationLinks{
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            padding: 2.5rem;
+        }
+    }
+}
+.wideChoices{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    h4{
+        color: setColor(fontBlue);
+    }
+    p{
+        line-height: 2rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.wideChoicesList{
+    margin-bottom: 2.6667rem;
+    align-self: flex-start;
+    .icon{
+        margin-right: 1rem;
+        font-size: 2rem;
+        line-height: 1;
+        .iconCard {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            display: inline-block;
+            border-style: none;
+        }
+    }
+    .contents{
+        h6{
+            margin-bottom: .46667rem;
+            color: setColor(fontBlue);
+        }
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.tradingNextLevel{
+    h4{
+        color: setColor(fontBlue);
+    }
+    .next-level{
+        font-size: 2rem;
+    }
+}
+
+.offers{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2.06667rem;
+    // margin-top: 40px;
+    p{
+        color: setColor(fontBlack);
+    }
+}
+.offerCards{
+    .offerCard{
+        box-shadow: 0 5px 30px rgba(105,106,119,.1);
+        border: 0 none;
+        margin-bottom: 2rem;
+        .card-body{
+            height: 270px;
+            h6{
+                margin: 0 0 .66667rem 0;
+                line-height: 1.86667rem;
+                a{
+                    color: setColor(darkBlue);
+                    text-decoration: none;
+                }
+            }
+            P{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.paymentGateways{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .gateway{
+        width: 222px;
+        height: 4rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto;
+    }
+    .react-multiple-carousel__arrow{
+        display: none;
+    }
+}
+
+
+
+
+
+.your-img {
+    width: 100%;
+    height: 4.5rem;
+  background-color:#fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}        
+.your-hover {
+    width: 100%;
+    height: 4.5rem;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+  background-color:fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+align:bottom;
+
+}
+.your-img:hover > .your-hover {           
+    opacity: 1;
+    filter: alpha(opacity = 50);
+}

@@ -1,0 +1,189 @@
+
+@import './../config/functions.scss';
+@import './../config/colorsDefinitions.scss';
+
+.topBanner{
+    // padding: 5rem 0 7rem;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    // overflow: hidden;
+
+    .bg_image_holder {
+        // position: absolute;
+        // height: 100%;
+        // width: 100%;
+        // top: 0;
+        // left: 0;
+        height: 21rem;
+        -webkit-background-size: cover!important;
+        background-size: cover!important;
+        background-position: 50% 50%!important;
+        background-repeat: no-repeat!important;
+        z-index: 0;
+        -o-transition: opacity .3s linear;
+        transition: opacity .3s linear;
+        -webkit-transition: opacity .3s linear;
+        opacity: 0;
+        overflow: hidden;
+        
+        img {
+            @media (max-width: 767px) {
+                display: block;
+                object-fit: cover !important;
+                height: 100% !important;
+            }
+        }
+        
+    }
+    
+    .page_title{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        color: #202428;
+        text-align: center;
+        line-height: 3.6rem;
+        line-height: 4.8rem;
+        font-weight: 600;
+        z-index: 1000;
+        margin-top: 2rem;
+    }
+    .action-btns{
+        z-index: 1000;
+        ul li {
+            .anchor{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            button{
+                color: setColor(fontWhite);
+                text-transform: capitalize;
+                font-size: .93333rem;
+                font-weight: 500;
+                padding: 0.40rem 2rem;
+                border: none;
+                
+            }
+        }
+    }
+}
+.topBanner:before {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: '';
+    z-index: 1;
+    background: rgba(255,255, 255, 0.1);
+}
+
+.breadCrumbBanner{
+    
+    nav{
+        z-index: 1000;
+         li {
+            color: rgba(255,255,255,.5);
+        }
+        li {
+            font-size: 14px;
+            a{
+                color: #fff;
+                font-weight: 500;
+                text-decoration: none;
+            }
+        }
+        li.active{
+            color: rgba(255,255,255,.5);
+        }
+        .breadcrumb{
+            background: none;
+        }
+    }
+     .page_title {
+        color: #202428;
+        // margin-bottom: 4.6rem;
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%;
+        line-height: 4.6rem;
+    }
+}
+
+
+.quickStats{
+    .information-wrapper {
+        // position: absolute;
+        // width: 100%;
+        // left: 0;
+        // top: -80px;
+        z-index: 1;
+    }
+    padding-top: 140px;
+    padding-bottom: 60px;
+    position: relative;
+    .card{
+        box-shadow: 0 5px 30px rgba(105,106,119,.1)!important;
+        border-radius: .26667rem;
+        overflow: hidden;
+        border: 0px;
+        .card-header{
+            padding: 1.5rem 2rem;
+            border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+            margin-bottom: 0;
+            background-color: setColor(white);
+            border-bottom: 1px solid #e4e8ed;
+        }
+        .card-body{
+            padding: 1.5rem;
+            padding-bottom: 0.5rem;
+            li{
+                margin-bottom: 1rem;
+            }
+            .iconLabel{
+                color: setColor(fontBlack);
+                font-weight: 500;
+            }
+            .statIcon{
+                color: setColor(fontPurple);
+                padding-right: 0.56rem
+            }
+        }
+    }
+}
+
+.legal-documents{
+    .shadow-lg-2 {
+        box-shadow: 0 5px 30px rgba(105,106,119,.1)!important;
+    }
+
+    .card-header {
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #e4e8ed;
+        padding: 2rem;
+        h5{
+            margin-bottom: 0px;
+        }
+    }
+}
+.color-primary{
+    color: #413aa4;
+}
+.neteller-form-section, .skrill-form-section{
+    height: 100%;
+    position: relative;
+    .card-body {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.67rem 2rem 1.8rem 2rem;
+        padding-bottom: 4rem;
+    }
+    .form-control{
+        padding: 1.35rem 1rem;
+        font-size: 0.9rem;
+    }
+}

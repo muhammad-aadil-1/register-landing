@@ -1,0 +1,10 @@
+@import '../config/colorsDefinitions.scss';
+
+.text-link {
+    text-decoration: none !important;
+    color: color(darkGray);
+}
+
+.text-link:hover {
+    color: color(blue);
+}

@@ -1,0 +1,59 @@
+
+
+.carousel-control-prev::before{
+        background-color: rgba(0, 0, 0, 0.1);
+        min-width: 3rem;
+        min-height: 3rem;
+        border-radius: 100%;
+        color: white;
+        content: ' ';
+        position: absolute;
+}
+.carousel-control-next::before{
+    background-color: rgba(0, 0, 0, 0.1);
+    min-width: 3rem;
+    min-height: 3rem;
+    border-radius: 100%;
+    color: white;
+    content: ' ';
+    position: absolute;
+}
+
+iframe{width:100%;}
+
+
+//// test
+
+.previos-button {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    left: 4.20rem;
+    top: 20.2rem;
+    z-index: 1;
+}
+.next-button {
+    right: 4.20rem;
+    top: 20.2rem;
+
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-size: cover;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+.carousel-control-next:hover{
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.5;
+}
+.carousel-control-next:hover::before{
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}

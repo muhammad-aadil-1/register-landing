@@ -1,0 +1,27 @@
+
+@import './../config/functions.scss';
+@import './../config/colorsDefinitions.scss';
+
+
+.quote-ribbon{
+    position: fixed;
+    right: 0;
+    top: 250px;
+    z-index: 1000;
+    a{
+        text-align: center;
+        padding: 0.6rem;
+        border-radius: 2px;
+        background-color: setColor(darkBlue);
+        display: block;
+        margin-bottom: 0.3rem;
+        img{
+            width: 30px;
+        }
+    }
+    .second{
+        a{
+            background-color: setColor(lightGrey);
+        }
+    }
+}

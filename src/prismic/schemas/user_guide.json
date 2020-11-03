@@ -1,0 +1,62 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "page_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page heading"
+      }
+    },
+    "banner_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "banner image"
+      }
+    },
+    "guides_box": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "guide_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "guide title"
+            }
+          },
+          "guide_description": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "guide description"
+            }
+          },
+          "guide_image": {
+            "type": "Link",
+            "config": {
+              "select": "media",
+              "label": "guide image"
+            }
+          },
+          "guide_file": {
+            "type": "Link",
+            "config": {
+              "select": "media",
+              "label": "guide file"
+            }
+          }
+        },
+        "label": "guides box"
+      }
+    }
+  }
+}

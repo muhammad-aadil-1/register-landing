@@ -1,0 +1,19 @@
+
+
+
+@import './colorsDefinitions.scss';
+@function color($colorName) {
+  @return map-get($colors, $colorName);
+}
+
+@function setColor($colorStr) {
+  // @return $colorStr;
+  @return map-get($colors, $colorStr);
+}
+
+@import './fontSizes.scss';
+// Get size value from fontSizes
+@function fontSize($size) {
+  @return map-get($sizes, $size);
+}
+

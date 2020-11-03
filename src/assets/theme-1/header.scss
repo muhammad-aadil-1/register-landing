@@ -1,0 +1,91 @@
+#callback_request_form {
+    .form-group {
+        margin-bottom: 2rem;
+        .form-control {
+            margin-bottom: 20px;
+            border-radius: 1.66667rem;
+            padding-left: 1.66667rem;
+        }
+        
+    }
+
+    .btn {
+        border-radius: 200px;
+        background-color: rgb(27, 115, 186);
+        border-color: rgb(27, 115, 186);
+        color: white;
+    }
+    
+}
+
+.mainMensssue .menu-arrow  .dropdown .nav-item:hover > .dropdown-menu {
+    display: block !important;    
+}
+
+
+
+.menu_area .dropdown-menu {
+    text-align: unset;
+}
+
+.menu_area .navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    padding: 0 1rem 0 0 !important;
+}
+
+@media (max-width: 991px) {
+    .menu_area .navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+        padding: 4px 5px !important;
+    }
+}
+
+.menu_area .navbar .navbar-nav .nav-item .nav-link::before {
+    content: "" !important;
+}
+
+.menu_area .nav-item.menu-arrow .nav-link::before {
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #202428;
+    
+}
+
+.menu_area .nav-item.menu-arrow-ar .nav-link::before {
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #202428;
+
+    @media (max-width: 991px) {
+        border-top: 0 !important;
+    }
+    
+}
+
+.menu_area .navbar .navbar-nav .nav-item.dropdown.menu-arrow-ar .nav-link::after {
+    content: "" !important;
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #202428;
+    top: 20px;
+    left: 10px !important;
+    
+    @media (min-width: 991px) {
+        border-top: 0 !important;
+    }
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #202428 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #413aa4 !important;
+}

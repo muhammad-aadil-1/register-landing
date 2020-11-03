@@ -1,0 +1,113 @@
+{
+  "Main": {
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "heading_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "heading label"
+      }
+    },
+    "cyse_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "cyse link"
+      }
+    },
+    "academy_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "academy label"
+      }
+    },
+    "academy_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "academy link"
+      }
+    },
+    "academy_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "academy icon"
+      }
+    },
+    "portal_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "portal label"
+      }
+    },
+    "portal_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "portal link"
+      }
+    },
+    "portal_icon": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "portal icon"
+      }
+    },
+    "demo_account_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading6",
+        "label": "demo account label"
+      }
+    },
+    "demo_account_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "demo account link"
+      }
+    },
+    "live_account_label": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading6",
+        "label": "live account label"
+      }
+    },
+    "live_account_link": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "live account link"
+      }
+    },
+    "english_flag": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "english flag"
+      }
+    },
+    "arabic_flag": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "arabic flag"
+      }
+    }
+  }
+}

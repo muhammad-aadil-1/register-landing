@@ -1,0 +1,153 @@
+
+.account-types{
+    li:before{
+        display: none
+    }
+
+
+.pricing.pricing--1 {
+    border-radius: 6px;
+    padding: 36px 30px 40px;
+    background: #fff;
+    
+}
+
+.shadow-lg-2 {
+    box-shadow: 0 5px 30px rgba(105,106,119,.1)!important;
+}
+.pricing {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 2rem;
+}
+.pricing.pricing--1 .pricing__title {
+    margin-bottom: 2rem;
+    
+}
+.pricing.pricing--1 .pricing__title h4 {
+    font-size: 1.6rem;
+}
+.pricing .pricing__title h4 {
+    line-height: 2rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.pricing.pricing--1 .pricing__price {
+    max-width: 231px;
+    margin: 0 auto;
+}
+.pricing.pricing--1 .pricing__price p {
+    margin: 0;
+}
+.pricing .pricing__price p {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 4.93333rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(27,115,186);
+    border-radius: 5px;
+    small{
+        font-size: 1rem !important;
+    }
+    span{
+        font-size: 1.5rem;
+        vertical-align: top;
+        position: relative;
+        margin-top: -2rem;
+    }
+    .arabic-price{
+        font-weight: 650;
+        font-size: 1.2rem !important;
+    }
+}
+.pricing.pricing--1 .pricing__features {
+    padding: 2rem 0;
+    // min-height: 41rem;
+}
+.pricing.pricing--1 .pricing__features ul {
+    margin: 0;
+}
+.pricing.pricing--1 .pricing__features ul li {
+    margin-bottom: 1rem;
+}
+.checklist {
+    display: block;
+}
+
+.checklist {
+    margin-bottom: .66667rem;
+    display: flex;
+    align-items: center;
+}
+li span{
+    color: rgb(27,115,186);;
+}
+}
+
+
+
+  .account-types {
+    display: flex;
+  flex-wrap: wrap;
+    .types{
+        display: grid;
+  flex-direction: column;
+    }
+ }
+
+
+ .account-types{
+     .accounts-header{
+         background-color: #fff;
+         padding: 1rem;
+         color: #597a96;
+         font-size: 1.4rem;
+         font-weight: bold;
+     }
+     .accounts-row{
+         div {
+             padding-left: 2rem;
+             padding-right: 2rem;
+         }
+         .has-blue-bg {
+             background-color: #a3def7;
+         }
+         .has-blue-text {
+            color: #597a96;
+         }
+     }
+ }
+ .has-orange-button {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    a {
+       display: inline-block;
+       border-radius: 0.6rem;
+       background-color: #db5d51;
+       color: #fff;
+       padding: 0.3rem 2rem;
+       text-decoration: none;
+    }
+}
+
+ .has-blue-button {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    a {
+       display: inline-block;
+       border-radius: 0.6rem;
+       background-color: #4a93f5;
+       color: #fff;
+       padding: 0.3rem 2rem;
+       text-decoration: none;
+    }
+}
+ .text-desc{
+     font-weight: 600;
+     color: #597a96;
+     font-size: 1.3rem;
+ }

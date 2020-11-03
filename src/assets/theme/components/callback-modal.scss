@@ -1,0 +1,49 @@
+
+
+.callback-modal {
+    .modal-header{
+        border-top-left-radius: none;
+    }
+    .form-control {
+        padding: 1.4rem 1.2rem;
+
+        border-radius: 1.66667rem;
+
+        box-shadow: none;
+        resize: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        margin-bottom: 20px;
+
+    }
+    
+    #SelectDrp_Callback_Country {
+        border-radius: 1.66667rem;
+        padding-left: 1.66667rem;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(2.25rem + 2px);
+    }
+    select.form-control {
+        padding: 0rem 1.2rem;
+        min-height: 3rem;
+        color: #9192a3;
+    }
+    .btn {
+        background-color: rgb(27, 115, 186);
+        border-color: rgb(27, 115, 186);
+        color: white;
+        border-radius: 200px !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        .Popup-Left-img {
+            position: initial;
+            text-align: center;
+        }
+    }
+    
+
+}

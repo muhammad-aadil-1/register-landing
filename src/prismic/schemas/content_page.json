@@ -1,0 +1,126 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "page id"
+      }
+    },
+    "page_name": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page name"
+      }
+    },
+    "banner_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "banner image"
+      }
+    },
+    "page_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "page heading"
+      }
+    },
+    "main_buttons": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "button_value": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "button value"
+            }
+          },
+          "button_link": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "button link"
+            }
+          },
+          "button_color": {
+            "type": "Color",
+            "config": {
+              "label": "button color"
+            }
+          }
+        },
+        "label": "main buttons"
+      }
+    },
+    "stats_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "stats heading"
+      }
+    },
+    "stats_items": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "stat_icon": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat icon"
+            }
+          },
+          "stat_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat title"
+            }
+          },
+          "stat_value": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "stat value"
+            }
+          }
+        },
+        "label": "stats items"
+      }
+    },
+    "description_content1": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "description_heading": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "description heading"
+            }
+          },
+          "description_content": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+              "label": "description content"
+            }
+          }
+        },
+        "label": "description content"
+      }
+    },
+    "map_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "map image"
+      }
+    }
+  }
+}

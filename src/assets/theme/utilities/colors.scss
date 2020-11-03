@@ -1,0 +1,27 @@
+@import '../config/functions.scss';
+
+.bg-primary {
+    background-color: color(darkBlue) !important;
+}
+.bg-blue {
+    background-color: color(blue);
+}
+
+.bg-gray {
+    background-color: color(lighterGray);
+}
+
+// TEXT COLORS
+.text-blue {
+    color: color(blue);
+}
+
+.text-blue-dark {
+    color: color(darkBlue);
+}
+.text-dark {
+    color: setColor(fontBlack);
+}
+.text-gray {
+    color: setColor(darkGray);
+}

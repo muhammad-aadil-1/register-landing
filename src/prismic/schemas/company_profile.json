@@ -1,0 +1,207 @@
+{
+  "Main": {
+    "company_overview": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "Company Overview"
+      }
+    },
+    "company_overview_body": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Company Overview Body"
+      }
+    },
+    "visit_blog_button": {
+      "type": "Link",
+      "config": {
+        "label": "Visit Blog Button"
+      }
+    },
+    "company_overview_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "Company Overview Image"
+      }
+    }
+  },
+  "Key Features": {
+    "key_figures_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "Key Figures heading"
+      }
+    },
+    "key_figures_body": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label": "Key Figures Body"
+      }
+    },
+    "key_figures_boxes": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "key_feature_box_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "Key Feature Box Title"
+            }
+          },
+          "key_feature_box_description": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+              "label": "Key Feature Box Description"
+            }
+          },
+          "number_only": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+              "label": "number only"
+            }
+          },
+          "number_prefix": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "number_prefix"
+            }
+          },
+          "number_sufix": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "number_sufix"
+            }
+          }
+        },
+        "label": "Key Figures Boxes"
+      }
+    }
+  },
+  "why accuindex": {
+    "why_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "why heading"
+      }
+    },
+    "why_reasons_box": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "why_image_icon": {
+            "type": "Image",
+            "config": {
+              "constraint": {},
+              "thumbnails": [],
+              "label": "why image icon"
+            }
+          },
+          "why_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "why title"
+            }
+          },
+          "why_description": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "why description"
+            }
+          }
+        },
+        "label": "why reasons box"
+      }
+    }
+  },
+  "payment methods": {
+    "payment_methods_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "payment methods heading"
+      }
+    },
+    "payment_methods_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "payment methods description"
+      }
+    },
+    "payment_methods_box": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "payment_method_box_icon": {
+            "type": "Image",
+            "config": {
+              "constraint": {},
+              "thumbnails": [],
+              "label": "payment box icon"
+            }
+          },
+          "payment_method_box_link": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "payment box  link"
+            }
+          }
+        },
+        "label": "payment methods boxes"
+      }
+    }
+  },
+  "professional skills": {
+    "professional_skills_heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "professional skills heading"
+      }
+    },
+    "professional_skills_description": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label": "professional skills description"
+      }
+    },
+    "professional_skills_boxes": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "professional_skills_box_title": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "professional skill box title"
+            }
+          },
+          "professional_skills_box_level": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+              "label": "professional skill box level"
+            }
+          }
+        },
+        "label": "professional skills  boxes"
+      }
+    }
+  }
+}
