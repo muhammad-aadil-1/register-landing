@@ -121,7 +121,7 @@ const CarouselTop = (props) => {
                                     scrolling="no"
                                     name="iframe-register" id="iframe-register"
                                     frameBorder="0"
-                                    style={form} src="http://localhost:3000/RegisterDemo?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css"/>
+                                    style={form} src="https://cp-new-ui.azurewebsites.net/RegisterDemo?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css"/>
                             </div>
                         </div>
                     </div>
