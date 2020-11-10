@@ -1,0 +1,10 @@
+.iframes {
+    background: none;
+    height: 100vh;
+}
+
+@media screen and (max-width: 479px) {
+    .iframes {
+        height: 1100px;
+    }
+}
