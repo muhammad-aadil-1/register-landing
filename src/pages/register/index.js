@@ -7,7 +7,9 @@ import { useHomePageData, RegisterDemoAccount } from "../../prismic/staticQuerie
 import TradingPlatforms from "./trading-platforms"
 import CarouselTop from "./carousel"
 
-const IndexPage = () => {
+const IndexPage = (props) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const referral = urlParams.get('ref');
   const language = useSelector(state => state.language)
 
   const homePageData = useHomePageData(language)
@@ -16,7 +18,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <>
-        <CarouselTop {...registerDemoAccount} language={language} />
+        <CarouselTop {...registerDemoAccount} language={language} referral={referral} /> 
         <TradingPlatforms {...homePageData} {...registerDemoAccount} lang={language} />
       </>
     </Layout>

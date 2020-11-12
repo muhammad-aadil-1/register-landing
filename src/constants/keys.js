@@ -20,6 +20,11 @@ const config = {
   apiHost: process.env.API_HOST,
   englishLanguage: process.env.ENLIGSH_LANGUAGE || 'en-us',
   arabicLanguage: 'ar-ae',
+
+  iframeUrl: 'https://cp-new-ui.azurewebsites.net',
+  // iframeUrl: 'http://localhost:3010'
+
+
 }
-console.log('config ', config.QUBEPAY_CHECKOUT_URL)
+
 export default config
