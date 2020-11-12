@@ -2,6 +2,7 @@ import React from "react"
 import RegisterForm from "./register-form";
 
 import signUpBg from "./../../images/sign-up-bg.png"
+import { config } from '../../constants'
 
 const getText = (array, split = false) => {
     const obj = array[0] ? array[0] : {text: ""};
@@ -121,7 +122,7 @@ const CarouselTop = (props) => {
                                     scrolling="no"
                                     name="iframe-register" id="iframe-register"
                                     frameBorder="0"
-                                    className="iframes" src="https://cp-new-ui.azurewebsites.net/RegisterLive?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css"/>
+                                    className="iframes" src={config.iframeUrl+"/RegisterLive?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css&ref="+props.referral}/>
                             </div>
                         </div>
                     </div>
