@@ -1,5 +1,5 @@
 import React from "react"
-import RegisterForm from "./register-form";
+import Helmet from 'react-helmet';
 
 import signUpBg from "./../../images/sign-up-bg.png"
 import { config } from '../../constants'
@@ -117,13 +117,15 @@ const CarouselTop = (props) => {
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <div style={formWrap}>
-                                <iframe
-                                    scrolling="no"
-                                    name="iframe-register" id="iframe-register"
-                                    frameBorder="0"
-                                    className="iframes" src={config.iframeUrl+"/RegisterDemo?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css&ref="+props.referral}/>
-                            </div>
+                        <div id="div-register" style={formWrap}></div>
+                            <Helmet>
+                                <script>
+                                   {`
+                                     (function (e, x, n, t, i, w, g) {e['ExinitiRegisterWidget'] = i; e[i] = e[i] || function(){(e[i].q=e[i].q||[]).push(arguments) }; e[i].l=1*new Date();w = x.createElement(n), g = x.getElementsByTagName(n)[0];w.async = 1;w.src = t; w.id = e[i].l;g.parentNode.insertBefore(w,g);})(window, document, 'script', 'https://exiniti.blob.core.windows.net/public/rw.js', 'wx');
+                                     wx('render', 'div-register', 'RegisterDemo');
+                                   `}
+                                </script>
+                            </Helmet>
                         </div>
                     </div>
                 </div>
