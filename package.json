@@ -46,7 +46,7 @@
   "license": "0BSD",
   "scripts": {
     "all": "gatsby clean && gatsby build && docker build -t accuindex.azurecr.io/accuindex-frontend:1.1.6 . && docker push accuindex.azurecr.io/accuindex-frontend:1.1.6",
-    "dockerbp": "docker build -t accuindex.azurecr.io/accuindex-frontend:1.1.2 . && docker push accuindex.azurecr.io/accuindex-frontend:1.1.2",
+    "dockerbp": "docker build -t accuindex.azurecr.io/accuindex-frontend:1.1.7 . && docker push accuindex.azurecr.io/accuindex-frontend:1.1.7",
     "build": "gatsby clean && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

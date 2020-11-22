@@ -22,6 +22,7 @@ const config = {
   arabicLanguage: 'ar-ae',
 
   iframeUrl: 'https://cp-new-ui.azurewebsites.net',
+  iframeUrl2: 'https://cp-journey-version.azurewebsites.net',
   // iframeUrl: 'http://localhost:3010'
 
 
