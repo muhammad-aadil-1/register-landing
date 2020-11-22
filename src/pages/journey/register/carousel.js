@@ -119,7 +119,7 @@ const CarouselTop = (props) => {
                         </div>
                         <div className="col-md-5">
                         <div id="div-register" ></div>
-                            <iframe style={{height: '980px'}} src={`https://cp-journey-version.azurewebsites.net/registerlive`}></iframe>
+                            <iframe style={{height: '980px', border: 'none'}} src={`https://cp-journey-version.azurewebsites.net/registerlive`}></iframe>
                         </div>
                     </div>
                 </div>
