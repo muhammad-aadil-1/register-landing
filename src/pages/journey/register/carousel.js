@@ -1,5 +1,5 @@
 import React from "react"
-import RegisterForm from "./register-form";
+import Helmet from 'react-helmet';
 
 import signUpBg from "./../../../images/sign-up-bg.png"
 import { config } from '../../../constants'
@@ -9,6 +9,7 @@ const getText = (array, split = false) => {
 
     return typeof obj === 'object' ? split ? obj.text.split('<br>') : obj.text : "";
 }
+
 
 const CarouselTop = (props) => {
     const text1 = getText(props.form_bg_content_1, true);
@@ -117,13 +118,8 @@ const CarouselTop = (props) => {
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <div style={formWrap}>
-                                <iframe
-                                    scrolling="no"
-                                    name="iframe-register" id="iframe-register"
-                                    frameBorder="0"
-                                    className="iframes" src={config.iframeUrl2+"/RegisterDemo?url=https://cors-anywhere.herokuapp.com/https://exiniti.blob.core.windows.net/public/accuindex.css&ref="+props.referral}/>
-                            </div>
+                        <div id="div-register" ></div>
+                            <iframe style={{height: '980px'}} src={`https://cp-journey-version.azurewebsites.net/registerlive`}></iframe>
                         </div>
                     </div>
                 </div>
