@@ -138,7 +138,10 @@ export default CarouselTop
 const bg = {
     overflow: "hidden",
     width: "100%",
-    backgroundImage: "url(" + signUpBg + ")"
+    backgroundRepeat: "no-repeat",
+    minHeight: "980px",
+    backgroundImage: "url(" + signUpBg + ")",
+    backgroundPosition: "bottom center"
 };
 
 const formWrap = {
