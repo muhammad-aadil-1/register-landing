@@ -2,7 +2,7 @@ import React from "react"
 
 import Helmet from 'react-helmet';
 
-import signUpBg from "./../../images/sign-up-bg.png"
+import signUpBg from "./../../images/signup-new-bg.jpg"
 import { config } from '../../constants'
 
 const getText = (array, split = false) => {
@@ -28,8 +28,8 @@ const CarouselTop = (props) => {
                 <div className="container">
                     <div className="row marTop40">
                         <div className="col-md-7">
-                            <div style={{marginTop: "100px", width: "100%"}}>
-                                <div style={{fontSize: "36px", color: "#fff", fontWeight: "bold"}}>
+                            <div style={{width: "100%"}}>
+                                <div style={{fontSize: "30px", lineHeight:"36px", color: "#244a88", fontWeight: "bold"}}>
                                     {text1[0]}
                                     <br/>
                                     {text1[1] && text1[1]}
@@ -37,15 +37,14 @@ const CarouselTop = (props) => {
                             </div>
 
                             <div className="marTop40" style={{width: "100%"}}>
-                                <div style={{color: "#fff"}}>
-                                    <h6 style={{color: "#fff"}}>{text2[0]}</h6>
-                                    <h6 style={{color: "#fff"}}>{text2[1] && text2[1]}</h6>
+                                <div style={{color: "#1a1a1a"}}>
+                                    <h6 style={{fontSize: "18px", fontWeight:"200"}}>{text2[0]}<br/>{text2[1] && text2[1]}</h6>
                                     <p style={{fontSize: "12px"}}>{text3}</p>
                                 </div>
 
                             </div>
 
-                            <div className="marTop40" style={{width: "100%", color: "#fff", marginBottom: "25px"}}>
+                            {/* <div className="marTop40" style={{width: "100%", color: "#fff", marginBottom: "25px"}}>
                                 <p style={{fontSize: "18px"}}>{text4}</p>
                                 <div className="row">
                                     <div className="col-md-3">
@@ -115,7 +114,7 @@ const CarouselTop = (props) => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-md-5">
                             <div id="div-register" style={formWrap}></div>

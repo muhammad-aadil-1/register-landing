@@ -23,7 +23,7 @@
       "form_bg_content_3" : {
         "type" : "StructuredText",
         "config" : {
-          "multi" : "paragraph",
+          "multi" : "paragraph, hyperlink",
           "label" : "form_bg_content 3"
         }
       },
