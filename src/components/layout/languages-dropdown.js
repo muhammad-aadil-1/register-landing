@@ -16,7 +16,7 @@ const LanguagesDropdown = ({ language = config.arabicLanguage, setWebLanguage })
       flag: arabic_flag.url,
     },
     [config.englishLanguage]: {
-      title: "EN",
+      title: "ENGLISH",
       flag: english_flag.url,
     },
   }
@@ -33,21 +33,21 @@ const LanguagesDropdown = ({ language = config.arabicLanguage, setWebLanguage })
           as={Card.Header}
         >
           <span className="lang">{languages[language].title}</span>
-          <img
+          {/* <img
             className="lang_flag mx-2"
             src={languages[language].flag}
             alt="English"
             style={{ width: "23px" }}
-          />
+          /> */}
         </Dropdown.Toggle>
-        <Dropdown.Menu style={{padding: '0px'}}>
+        <Dropdown.Menu>
           <Dropdown.Item onClick={e => setWebLanguage(anotherLanguage)}>
-            <img
+            {/* <img
               src={languages[anotherLanguage].flag}
               alt=""
               style={{ width: "23px" }}
               className="mx-2"
-            />
+            /> */}
             {languages[anotherLanguage].title}
           </Dropdown.Item>
         </Dropdown.Menu>

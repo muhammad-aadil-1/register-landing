@@ -1,9 +1,8 @@
-import React from "react"
+import React, {useEffect} from "react"
 
 import Helmet from 'react-helmet';
 
 import signUpBg from "./../../images/signup-new-bg.jpg"
-import { config } from '../../constants'
 
 const getText = (array, split = false) => {
     const obj = array[0] ? array[0] : {text: ""};
@@ -21,6 +20,23 @@ const CarouselTop = (props) => {
     const iconText2 = getText(props.icon_text_2, true);
     const iconText3 = getText(props.icon_text_3, true);
     const iconText4 = getText(props.icon_text_4, true);
+
+    const lang = (props.language === 'ar-ae') ? 'ar-ae' : 'en-gb';
+
+    
+    function getForm(){
+        if(window.wx) {
+            window.wx('render', 'div-register', 'RegisterLive', lang, props.referral , 'style url');
+        } else {
+            setTimeout(()=> {
+               getForm()
+            }, 1000);
+        }
+    }
+
+    useEffect(() =>{
+        getForm();
+    }, [props.language]);
 
     return (
         <div style={bg}>
@@ -122,7 +138,7 @@ const CarouselTop = (props) => {
                                 <script>
                                    {`
                                      (function (e, x, n, t, i, w, g) {e['ExinitiRegisterWidget'] = i; e[i] = e[i] || function(){(e[i].q=e[i].q||[]).push(arguments) }; e[i].l=1*new Date();w = x.createElement(n), g = x.getElementsByTagName(n)[0];w.async = 1;w.src = t; w.id = e[i].l;g.parentNode.insertBefore(w,g);})(window, document, 'script', 'https://exiniti.blob.core.windows.net/public/rw.js', 'wx');
-                                     wx('render', 'div-register', 'RegisterLive', '${props.referral}' , 'style url');
+                                     wx('render', 'div-register', 'RegisterLive', '${lang}', '${props.referral}' , 'style url');
                                    `}
                                 </script>
                             </Helmet>
