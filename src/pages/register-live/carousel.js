@@ -2,8 +2,6 @@ import React, {useEffect} from "react"
 
 import Helmet from 'react-helmet';
 
-import signUpBg from "./../../images/signup-new-bg.jpg"
-
 const getText = (array, split = false) => {
     const obj = array[0] ? array[0] : {text: ""};
 
