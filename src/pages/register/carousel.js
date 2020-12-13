@@ -21,10 +21,19 @@ const CarouselTop = (props) => {
     const iconText4 = getText(props.icon_text_4, true);
 
     const lang = (props.language === 'ar-ae') ? 'ar-ae' : 'en-gb';
+    
+    const bg = {
+        overflow: "hidden",
+        width: "100%",
+        backgroundRepeat: "no-repeat",
+        minHeight: "980px",
+        backgroundImage: "url(" + props.background_banner_image.url + ")",
+        backgroundPosition: "bottom center"
+    };
 
     function getForm(){
         if(window.wx) {
-            window.wx('render', 'div-register', 'RegisterDemo', lang, props.referral , 'style url');
+            window.wx('render', 'div-register', 'RegisterDemo', lang, props.referral , 'style_url');
         } else {
             setTimeout(()=> {
                getForm()
@@ -149,15 +158,6 @@ const CarouselTop = (props) => {
 }
 
 export default CarouselTop
-
-const bg = {
-    overflow: "hidden",
-    width: "100%",
-    backgroundRepeat: "no-repeat",
-    minHeight: "980px",
-    backgroundImage: "url(" + signUpBg + ")",
-    backgroundPosition: "bottom center"
-};
 
 const formWrap = {
     position: "relative",
