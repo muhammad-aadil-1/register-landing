@@ -70,14 +70,20 @@ const Layout = ({ children }) => {
     <>
       <>
         <Helmet>
-          <title>{data.site.siteMetadata.title}</title>
+          <title>Exiniti</title>
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="https://accuindex.com/Content/img/favicon.png"
+            href="https://exiniti.blob.core.windows.net/exiniti/contents/favicon.png"
           />
           {/* <html lang={language} dir={isRtl ? 'rtl' : 'ltr'}/> */}
+
+          <script>
+              {`
+                (function (e, x, n, t, i, w, g) {e['ExinitiRegisterWidget'] = i; e[i] = e[i] || function(){(e[i].q=e[i].q||[]).push(arguments) }; e[i].l=1*new Date();w = x.createElement(n), g = x.getElementsByTagName(n)[0];w.async = 1;w.src = t; w.id = e[i].l;g.parentNode.insertBefore(w,g);})(window, document, 'script', 'https://exiniti.blob.core.windows.net/public/rwx.js', 'wx');
+              `}
+          </script>
 
           <script src={paysafeKeys.sdk}></script>
           {/* <meta name="description" content="Accuindex provides over 200 financial instruments: currency, commodity, share CFDs  and more. Learn more about the benefits and sign up for an account today. Transparent Fee Structure."></meta> */}

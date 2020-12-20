@@ -142,7 +142,6 @@ const CarouselTop = (props) => {
                             <Helmet>
                                 <script>
                                    {`
-                                     (function (e, x, n, t, i, w, g) {e['ExinitiRegisterWidget'] = i; e[i] = e[i] || function(){(e[i].q=e[i].q||[]).push(arguments) }; e[i].l=1*new Date();w = x.createElement(n), g = x.getElementsByTagName(n)[0];w.async = 1;w.src = t; w.id = e[i].l;g.parentNode.insertBefore(w,g);})(window, document, 'script', 'https://exiniti.blob.core.windows.net/public/rw.js', 'wx');
                                      wx('render', 'div-register', 'RegisterDemo', '${lang}', '${props.referral}' , 'style url');
                                    `}
                                 </script>

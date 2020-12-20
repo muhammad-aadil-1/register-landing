@@ -52,7 +52,7 @@ const HeaderSection = () => {
           <Navbar collapseOnSelect expand="lg">
             <Col xs={12} md={'auto'} className="nav-col px-0 d-flex justify-content-between" dir={isRtl ? "rtl" : "ltr"}>
               <Link to={'/'} className="pr-4 navbar-brand">
-                <img src={logo.url} alt="" />
+                <img src="https://exiniti.blob.core.windows.net/exiniti/contents/logo-main.png" alt="" />
               </Link>
               <div className="d-flex align-items-center">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
