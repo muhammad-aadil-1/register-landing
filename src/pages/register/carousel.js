@@ -34,8 +34,8 @@ const CarouselTop = (props) => {
             window.wx('render', 'div-register', 'RegisterDemo', lang, props.referral , 'style_url');
         } else {
             setTimeout(()=> {
-               getForm()
-            }, 100);
+               getForm();
+            }, 1000);
         }
     }
 
@@ -136,14 +136,7 @@ const CarouselTop = (props) => {
                             </div>*/}
                          </div>
                         <div className="col-md-5">
-                        <div id="div-register" style={formWrap}></div>
-                            <Helmet>
-                                <script>
-                                   {`
-                                     wx('render', 'div-register', 'RegisterDemo', '${lang}', '${props.referral}' , 'style url');
-                                   `}
-                                </script>
-                            </Helmet>
+                            <div id="div-register" style={formWrap}></div>
                         </div>
                     </div>
                 </div>
