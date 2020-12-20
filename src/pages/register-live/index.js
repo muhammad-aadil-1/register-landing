@@ -19,7 +19,7 @@ const IndexPage = () => {
     <Layout>
       <>
         <CarouselTop {...registerDemoAccount} language={language} referral={referral} />
-        <TradingPlatforms {...homePageData} {...registerDemoAccount} lang={language} />
+        {/* <TradingPlatforms {...homePageData} {...registerDemoAccount} lang={language} /> */}
       </>
     </Layout>
   )

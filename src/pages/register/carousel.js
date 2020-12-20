@@ -25,7 +25,7 @@ const CarouselTop = (props) => {
         width: "100%",
         backgroundRepeat: "no-repeat",
         minHeight: "980px",
-        backgroundImage: "url(" + props.background_banner_image.url + ")",
+        // backgroundImage: "url(" + props.background_banner_image.url + ")",
         backgroundPosition: "bottom center"
     };
 
@@ -51,9 +51,7 @@ const CarouselTop = (props) => {
                         <div className="col-md-7">
                             <div style={{width: "100%", marginBottom:"20px"}}>
                                 <div style={{fontSize: "30px", lineHeight:"36px", color: "#244a88", fontWeight: "bold"}}>
-                                    {text1[0]}
-                                    <br/>
-                                    {text1[1] && text1[1]}
+                                    REGISTER DEMO ACCOUNT
                                 </div>
                             </div>
 
