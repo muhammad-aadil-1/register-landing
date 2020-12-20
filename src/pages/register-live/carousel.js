@@ -53,7 +53,7 @@ const CarouselTop = (props) => {
                         <div className="col-md-7">
                             <div style={{width: "100%"}}>
                                 <div style={{fontSize: "30px", lineHeight:"36px", color: "#244a88", fontWeight: "bold"}}>
-                                { lang === 'ar-ae'? 'سجل حساب حقيقي' : 'REGISTER DEMO ACCOUNT'}
+                                { lang === 'ar-ae'? 'سجل حساب حقيقي' : 'REGISTER LIVE ACCOUNT'}
                                 </div>
                             </div>
 
