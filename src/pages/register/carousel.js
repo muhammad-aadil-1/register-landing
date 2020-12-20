@@ -51,7 +51,7 @@ const CarouselTop = (props) => {
                         <div className="col-md-7">
                             <div style={{width: "100%", marginBottom:"20px"}}>
                                 <div style={{fontSize: "30px", lineHeight:"36px", color: "#244a88", fontWeight: "bold"}}>
-                                    REGISTER DEMO ACCOUNT
+                                    { lang === 'ar-ae'? 'سجل حساب تجريبي' : 'REGISTER DEMO ACCOUNT'}
                                 </div>
                             </div>
 
