@@ -36,7 +36,6 @@ const CarouselTop = (props) => {
         } else {
             setTimeout(()=> {
                getForm();
-               console.log('delay call');
             }, 1000);
         }
     }
